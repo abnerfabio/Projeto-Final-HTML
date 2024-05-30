@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio dev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Abner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item">
+                        <a href="#sobre" class="nav-link active">Sobre</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#projetos" class="nav-link">Projetos</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    
+    <header class="bg-primary text-white text-center p-5">
+        <h1 class="rounded border border-light border-4">Bem vindo ao meu portfólio</h1>
+        <p>Sou um Dev Fullstack apaixonado por tecnologia e inovação.</p>
+    </header>
+
+    <section id="sobre" class="py-5 text-center bg-success text-white">
+        <div class="container">
+            <h2 class="rounded border border-light border-3">Sobre mim</h2>
+            <p>Sou um Desenvolvedor Fullstack a procura de atuar em novos projetos utilizando HTML e CSS.</p>
+        </div>
+    </section>
+     
+    <section id="skills" class=" bg-danger py-5 text-white">
+        <div class="container text-center">
+            <h2 class="rounded border border-light border-2">Habilidades</h2>
+          <div class="row">
+            <div class="col-lg-4">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, Javascript</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h3>Backend</h3>
+                <p>NodeJS</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h3>Ferramentas e Outros</h3>
+                <p>Git, Github, Docker, AWS</p>
+            </div>
+          </div> 
+        </div>
+    </section>
+
+    <section id="projetos" class="py-5 bg-info">
+        <div class="container text-center text-white">
+            <h2 class="rounded border border-light border-2">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card bg-dark text-white">
+                        <img src="Projeto 1.jpg" alt="Projeto 1" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title ">Projeto 1</h5>
+                            <p class="card-text">Projeto de criação de portfólio com bootstrap</p>
+                            <a href="#" class="btn btn-primary">Mais info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="Projeto 2.avif" alt="Projeto 2" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Projeto 2</h5>
+                            <p class="card-text">Projeto de criação de Formulário com HTML</p>
+                            <a href="#" class="btn btn-primary">Mais info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="Projeto 3.avif" alt="Projeto 3" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Projeto 3</h5>
+                            <p class="card-text">Projeto de criação de Listas com CSS</p>
+                            <a href="#" class="btn btn-primary">Mais info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="bg-dark text-white p-5">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" id="nome" class="form-control">
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div class="mb-4">
+                    <label for="msg" class="form-label">Mensagem</label>
+                    <textarea id="msg" rows="3" class="form-control"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white p-4 text-center">
+        <div class="container">
+            <p>Redes Sociais</p>
+            <a href="https://github.com/abnerfabio" class="text-white me-4 text-decoration-none" >
+                <i class="bi bi-github" style="font-size: 24px;"></i>
+            </a>
+                <a href="https://www.instagram.com/abnerfabio_/" class="text-white me-4 text-decoration-none">
+                    <i class="bi bi-instagram" style="font-size: 24px;"></i>
+                </a>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
